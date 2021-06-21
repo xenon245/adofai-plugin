@@ -1,6 +1,6 @@
 name: ADOFAI
-main: $pluginMain
-version: $version
+main: com.github.xenon.adofai.plugin.AdofaiPlugin
+version: 1.0
 commands:
   adofai:
     permission: command.adofai
