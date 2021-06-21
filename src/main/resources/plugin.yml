@@ -1,0 +1,11 @@
+name: ADOFAI
+main: $pluginMain
+version: $version
+commands:
+  adofai:
+    permission: command.adofai
+    description: command for adofai
+permissions:
+  command.adofai:
+    default: op
+    description: permission for activate command.adofai
