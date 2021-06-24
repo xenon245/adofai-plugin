@@ -6,6 +6,7 @@ server='https://papermc.io/api/v1/paper/1.16.5/latest/download'
 plugins=(
     'https://github.com/monun/kotlin-plugin/releases/latest/download/Kotlin-1.5.10.jar'
     'https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar'
+    'https://github.com/monun/auto-update/releases/latest/download/AutoUpdate.jar'
 )
 
 script=$(basename "$0")
