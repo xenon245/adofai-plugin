@@ -14,11 +14,13 @@ repositories {
     mavenCentral()
     maven("https://papermc.io/repo/repository/maven-public/")
     maven("https://jitpack.io/")
+    maven("https://maven.enginehub.org/repo/")
 }
 
 dependencies {
     compileOnly(kotlin("stdlib"))
     compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
+    compileOnly("com.sk89q.worldedit:worldedit-bukkit:7.1.0")
     implementation("com.github.monun:kommand:+")
     implementation("com.github.monun:tap:+")
 }
